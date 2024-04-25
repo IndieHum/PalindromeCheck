@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.container > div {
+  margin-bottom: 50px;
+  width: 50%;
+}
+
+.upper-section {
+  font-size: 1.5rem;
+}
+
+#entry {
+  width: 75%;
+  height: 25px;
+  padding: 10px;
+  border-radius: 15px;
+  border: none;
+  background-color: #eeedfb;
+  box-shadow: 2px 2px 1px;
+  margin-right: 20px;
+  font-size: 1.2rem;
+}
+
+#entry:focus {
+  outline: none;
+}
+
+#check-btn {
+  width: 17%;
+  height: 100%;
+  border: none;
+  border-radius: 15px;
+  background-color: #c5c5c5;
+  font-size: 1.2rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease-in;
+}
+
+#check-btn:hover {
+  color: #c5c5c5;
+  background-color: black;
+}
+
+.lower-section {
+  display: flex;
+  align-items: center;
+}
+
+h3 {
+  font-size: 1.65rem;
+}
+
+#panel {
+  width: 59%;
+  height: 25px;
+  padding: 10px;
+  background-color: #eeedfb;
+  border-radius: 15px;
+  margin: 0 20px;
+  text-align: left;
+  font-size: 1.3rem;
+}
+
+#palindrome-container > div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 5px;
+}
+
+.ticket {
+  border: 2px solid black;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+}
