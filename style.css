@@ -28,10 +28,11 @@
   padding: 10px;
   border-radius: 15px;
   border: none;
-  background-color: #eeedfb;
+  background-color: #d2d2d2;
   box-shadow: 2px 2px 1px;
   margin-right: 20px;
   font-size: 1.2rem;
+  text-align: center;
 }
 
 #entry:focus {
@@ -68,11 +69,13 @@ h3 {
   width: 59%;
   height: 25px;
   padding: 10px;
-  background-color: #eeedfb;
+  background-color: #d2d2d2;
   border-radius: 15px;
   margin: 0 20px;
   text-align: left;
   font-size: 1.3rem;
+  box-shadow: 2px 2px 1px;
+  text-align: center;
 }
 
 #palindrome-container > div {
