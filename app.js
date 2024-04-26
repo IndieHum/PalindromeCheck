@@ -4,6 +4,8 @@ const Panel = document.getElementById("panel");
 const RedPanel = document.getElementById("no");
 const BluePanel = document.getElementById("yes");
 
+/// empty entry | one vowel | Limit word ///
+
 function ReveseAndPlindromeHandler() {
   // reset color of palindrome checks
   BluePanel.style.backgroundColor = "white";
